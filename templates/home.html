@@ -1,0 +1,313 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGUKTN Yogasala Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="{% static 'js/mdb.min.js' %}"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">RGUKTN Yogasala</a>
+              <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+              aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation"
+              >
+              <i class="fas fa-bars"></i>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about">About Yogasala</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/importance">Importance of Yoga</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/competitions">Competitions</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/knowledge">Knowledge about Yoga</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/achievements">Achievements</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="pt-4">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col" align="center">              
+              <div id="carouselMaterialStyle" class="carousel slide carousel-dark w-75" data-mdb-ride="carousel">
+
+                <!-- Inner -->
+                <div class="carousel-inner rounded-5 shadow-4-strong">
+                  <!-- Single item -->
+                  <div class="carousel-item active">
+                    <img src="" class="d-block cimg w-100"
+                      alt="Yogasala" height="300"/>
+                  </div>
+    
+                <div class="carousel-item">
+                <img src="" class="d-block cimg w-100"
+                alt="Nothing Found" height="300"/>
+                </div>
+    
+                <div class="carousel-item ">
+                <img src="" class="d-block cimg w-100"
+                alt="Nothing Found" height="300"/>                     
+                </div>
+
+                </div>
+                <!-- Inner -->
+    
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-1">                  
+              </div>
+              <div class="col-10 m-2" align="center">
+                  <section class="m-4">
+                    <h3>
+                      About RGUKTN Yogasala
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Et leo duis ut diam quam nulla porttitor. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Enim blandit volutpat maecenas volutpat. Velit ut tortor pretium viverra suspendisse. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Nulla pellentesque dignissim enim sit amet venenatis urna. Pretium lectus quam id leo in vitae turpis massa. Lectus urna duis convallis convallis. Viverra accumsan in nisl nisi scelerisque eu. Enim nec dui nunc mattis enim ut. Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Malesuada fames ac turpis egestas integer eget aliquet nibh. Rhoncus urna neque viverra justo nec ultrices dui sapien eget. Dui accumsan sit amet nulla. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Habitant morbi tristique senectus et netus et malesuada fames. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.
+                    </p>
+                    <div class="row" align="right" >
+                      <a href="/about" style="color: black;">Read More &#8594;</a>
+                    </div>
+                  </section>
+                  <hr style="border: 5px solid black;">
+                  <section>
+                    <h3>
+                      Latest Competion Results
+                    </h3>
+                    <div class="row mt-5">
+                      <div class="col">
+                        <div class="card" style="width: 75%;!important">
+                          <div class="card-header">
+                            <h5 class="card-title">Title of Competition</h5>
+                          </div>
+                          <div class="card-body">                            
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary">Button</button>
+                          </div>
+                          <div class="card-footer">
+                            Date of Competition
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card" style="width: 75%;!important">
+                          <div class="card-header">
+                            <h5 class="card-title">Title of Competition</h5>
+                          </div>
+                          <div class="card-body">                            
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-primary">Button</button>
+                          </div>
+                          <div class="card-footer">
+                            Date of Competition
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <hr style="border: 5px solid black;">
+                  <section>
+                    <div class="row">
+                      <h3 class="mb-3">
+                        Webinars and Playlist About Yoga
+                      </h3>
+                      <div class="col">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title">
+                              Playlist 1
+                            </div>                        
+                            <iframe src="https://www.youtube.com/embed/_bDXXWQxK38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title">
+                              Playlist 2
+                            </div>
+                            <iframe src="https://www.youtube.com/embed/_bDXXWQxK38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title">
+                              Playlist 3
+                            </div>
+                            <iframe src="https://www.youtube.com/embed/_bDXXWQxK38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row" align="right">
+                      <a href="/webinars" class="m-2" style="color: black; font-size: large;">View More &rarr;</a>
+                    </div>
+                  </section>
+              </div>
+              <div class="col-1">                
+              </div>
+          </div>
+        </div>
+    </main>
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>RGUKTN Yogasala
+          </h6>
+          <p>
+            The Best Place to learn and Practice Yoga!
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> RGUKTN, Nuzvid, AP</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            <a href="mailto:info@gmail.com" style="color: grey;">info@gmail.com</a>
+          </p>
+          <p><i class="fas fa-phone me-3"></i><a href="tel:+911234567890" style="color: grey"> + 01 234 567 88 </a></p>
+          <p><i class="fas fa-print me-3"></i><a href="tel:+911234567890" style="color: grey"> + 01 234 567 89 </a></p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="#">Yogasala</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
